@@ -78,6 +78,7 @@ function logout()
 {
 
 //Auditoria
+/*
 $auditoria   = new Auditoria();
 $funciones   = new Funciones();  
 
@@ -90,9 +91,9 @@ $auditoria->acceso($_SESSION[KEY.NOMBRES].' '.$_SESSION[KEY.APELLIDOS],'logout',
    unset($_SESSION[KEY.NOMBRES]);
    unset($_SESSION[KEY.APELLIDOS]);
 
+*/
 
 }
-
 
 
 
